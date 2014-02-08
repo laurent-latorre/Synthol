@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -g -nostartfiles -Map=synthol.map -O1 --gc-sections -lm -lgcc -lc -LC:\CooCox\CoIDE\configuration\ProgramData\synthol -TC:\CooCox\CoIDE\configuration\ProgramData\synthol/arm-gcc-link.ld -g -L..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.6 2012q2\arm-none-eabi\lib\armv7e-m\fpu -lm">
+      <target file="synthol.elf" lastModified="141c5440830">
+         <source file="..\..\..\..\..\..\..\Program Files\GNU Tools ARM Embedded\4.6 2012q2\arm-none-eabi\lib\armv7e-m\fpu\libm.a" lastModified="137e6c0a570"/>
+         <source file="..\obj\stm32f4_discovery_audio_codec.o" lastModified="141c543fde0"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="141c543fe71"/>
+         <source file="..\obj\stm32f4xx_dac.o" lastModified="141c543fee4"/>
+         <source file="..\obj\llist.o" lastModified="141c543ff49"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="141c543ff83"/>
+         <source file="..\obj\main.o" lastModified="141c5440006"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="141c54400bb"/>
+         <source file="..\obj\printf.o" lastModified="141c5440169"/>
+         <source file="..\obj\synth.o" lastModified="141c5440242"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="141c54402ae"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="141c5440308"/>
+         <source file="..\obj\syscalls.o" lastModified="141c544034b"/>
+         <source file="..\obj\stm32f4xx_dma.o" lastModified="141c54403c6"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="141c5440455"/>
+         <source file="..\obj\stm32f4xx_i2c.o" lastModified="141c54404e6"/>
+         <source file="..\obj\misc.o" lastModified="141c5440539"/>
+         <source file="..\obj\midi.o" lastModified="141c54405d1"/>
+      </target>
+   </processor>
+</history>

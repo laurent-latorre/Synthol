@@ -1,0 +1,12 @@
+17:41:13.708 [Worker-71] ERROR org.coocox.codb.common.log.ErrorLog - example not exists:546
+
+17:41:13.711 [Worker-71] ERROR org.coocox.codb.common.log.ErrorLog - local exam data invalid!null
+
+17:41:13.711 [Worker-71] ERROR org.coocox.codb.common.log.ErrorLog - downloadExamples API failed 
+local exam data invalid!null
+org.coocox.codb.client.core.api.impl.ExampleApiImpl.freshExamplesByCompId(ExampleApiImpl.java:283)
+org.coocox.example.core.impl.ExampleDBCmdHandler.freshExamplesByCompId(ExampleDBCmdHandler.java:51)
+org.coocox.integrate.component.views.ComponentView$4$1.run(ComponentView.java:346)
+org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+
